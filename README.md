@@ -45,11 +45,11 @@ Frontend: HTML, CSS
 # 🤝 Contributing
 
 We ❤️ contributions! Follow these steps:
-1️⃣ Fork the repository 🍴
-2️⃣ Create a new branch (feature-branch) 🌿
-3️⃣ Commit changes (git commit -m 'Add new feature') 📝
-4️⃣ Push to the branch (git push origin feature-branch) 🚀
-5️⃣ Submit a pull request 🔄
+1️⃣ Fork the repository 🍴<br>
+2️⃣ Create a new branch (feature-branch) 🌿<br>
+3️⃣ Commit changes (git commit -m 'Add new feature') 📝<br>
+4️⃣ Push to the branch (git push origin feature-branch) 🚀<br>
+5️⃣ Submit a pull request 🔄<br>
 
 # Author
 Ashish Sharma
