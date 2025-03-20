@@ -7,11 +7,11 @@ The Glomorphic Sign-Up Page is a sleek, user-friendly, and fully responsive sign
 
 ✨ Features
 
-✅ Responsive Design – Optimized for all devices 📱💻
-✅ Secure Authentication – Strong password validation & encryption 🔒
-✅ User-Friendly UI – Intuitive and elegant interface 🎨
-✅ Real-Time Form Validation – Prevents invalid submissions ⚠️
-✅ Database Integration – Securely stores user credentials (if applicable) 💾
+✅ Responsive Design – Optimized for all devices 📱💻<br>
+✅ Secure Authentication – Strong password validation & encryption 🔒<br>
+✅ User-Friendly UI – Intuitive and elegant interface 🎨<br>
+✅ Real-Time Form Validation – Prevents invalid submissions ⚠️<br>
+✅ Database Integration – Securely stores user credentials (if applicable) 💾<br>
 
 🔧 Installation
 
