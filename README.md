@@ -44,7 +44,7 @@ Frontend: HTML, CSS
 
 # 🤝 Contributing
 
-We ❤️ contributions! Follow these steps:
+We ❤️ contributions! Follow these steps:<br>
 1️⃣ Fork the repository 🍴<br>
 2️⃣ Create a new branch (feature-branch) 🌿<br>
 3️⃣ Commit changes (git commit -m 'Add new feature') 📝<br>
