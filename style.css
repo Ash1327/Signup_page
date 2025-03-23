@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    overflow: hidden; /* To prevent scroll due to animations */
+}
+
+.outer-box {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+    position: relative;
+    overflow: hidden;
+}
+
+/* ================= FORM ANIMATION ================= */
+.inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%) scale(0.9);
+    padding: 20px 40px;
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    backdrop-filter: blur(8px);
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+    animation: popIn 1s ease-out forwards;
+}
+
+/* ================= CIRCLE ANIMATION ================= */
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff);
+    position: absolute;
+    animation: float 6s ease-in-out infinite;
+    opacity: 0.7;
+}
+
+.c1 {
+    top: 100px;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.c2 {
+    bottom: 200px;
+    right: 10%;
+    animation-delay: 0s;
+}
+
+/* ================= FORM CONTENT ================= */
+.signup-header h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.signup-header p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+.signup-body {
+    margin: 20px 0;
+}
+
+.signup-body p {
+    margin: 10px 0;
+}
+
+.signup-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+.signup-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+#submit {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #2773a5;
+}
+
+.signup-footer p {
+    color: #555;
+    text-align: center;
+}
+
+.signup-footer p a {
+    color: #2773a5;
+}
+
+/* ================= KEYFRAMES ================= */
+
+/* Form pop-in animation */
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%) scale(0.7);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-50%) scale(1);
+    }
+}
+
+/* Circle floating animation */
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(45deg);
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
